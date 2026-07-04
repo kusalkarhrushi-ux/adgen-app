@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: adgen-app
+    env: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: REMOVE_BG_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: ELEVENLABS_VOICE_ID
+        value: 21m00Tcm4TlvDq8ikWAM

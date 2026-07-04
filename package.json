@@ -1,0 +1,17 @@
+{
+  "name": "adgen-app",
+  "version": "1.0.0",
+  "description": "Upload a product photo, get a 20-30s video ad.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0"
+  }
+}
